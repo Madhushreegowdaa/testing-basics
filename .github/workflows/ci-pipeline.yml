@@ -1,4 +1,5 @@
-name:CI Automation Test
+name: CI Automation Test
+
 on:
   push:
     branches:
