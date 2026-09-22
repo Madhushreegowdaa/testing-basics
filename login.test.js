@@ -1,4 +1,4 @@
-const { signup, login } = require("./auth");
+const { signup, login } = require("./login");
 
 describe("Authentication Tests", () => {
 

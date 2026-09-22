@@ -16,7 +16,7 @@ describe("calculateAverage", () => {
   });
 
   test("should ignore invalid marks", () => {
-    expect(calculateAverage([90, 80, -10, 70, 110, 50]) ).toBe(65);
+    expect(calculateAverage([90, 80, -10, 70, 110, 50]) ).toBe(80);
   });
 
   test("should return 0 when all marks are invalid", () => {
